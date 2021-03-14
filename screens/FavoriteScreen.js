@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const CategoriesScreen = props => {
+const FavoritesScreen = props => {
   return (
     <View style={styles.screen}>
-      <Text>The Categories Screen!</Text>
+      <Text>The Favorite Meal Screen!</Text>
     </View>
   )
 };
@@ -17,4 +17,4 @@ const styles = StyleSheet.screate({
   }
 })
 
-export default CategoriesScreen;
+export default FavoritesScreen;
