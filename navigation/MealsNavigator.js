@@ -9,7 +9,9 @@ import MealDetailScreen from '../screens/MealDetailScreen';
 import Colors from '../constants/Colors';
 
 const MealsNavigator = createStackNavigator({
-  Categories: CategoriesScreen,
+  Categories: {
+    screen: CategoriesScreen,
+  },
   CategoryMeals: {
     screen: CategoryMealsScreen
   },
